@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Arcade</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1>MINDLEX GAMES</h1>
+            <ul class="navbar-menu">
+                <li><a href="http://127.0.0.1:5501/index1.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Games</a>
+                    <div class="dropdown-content">
+                        <a href="#snl">Snake & Ladders</a>
+                        <a href="#tic-tac-toe">Tic Tac Toe</a>
+                        <a href="#chess">Chess</a>
+                        <a href="#rps">Rock Paper Scissors</a>
+                        <a href="#2048">2048</a>
+                        <a href="#racepod">RacePod</a>
+                        <a href="#balloon-shoot">Shoot Baloon</a>
+                        <a href="#bubble-shooter">Bubble Shooter</a>
+                        <a href="#water-sort">Water Sort</a>
+                        <a href="#math-puzzle">Math Puzzle</a>
+                    </div>
+                </li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactUs.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+
+            <div class="game-card" onclick="redirectToGame('snk/index1.html')" data-url="snk/index
+            1.html" id="snl">
+                <img src="images/snl.jpg" alt="Game 1" class="snl-game" >
+                <div class="game-details">
+                    <p class="game-name">SNAKE & LADDERS</p>
+                  <a href="snk/index1.html">  <button class="play-button">Play</button></a>
+                </div>
+            </div>
+
+          
+            <div class="game-card" onclick="redirectToGame('TIC-TAC-TOE/index.html')" data-url="TIC-TAC-TOE/index.html">
+                <img src="images/tic-tak-toe.jpg" alt="Game 2" id="tic-tac-toe">
+                <div class="game-details">
+                    <p class="game-name">TIC TAC TOE</p>
+                   <a href="TIC-TAC-TOE/index.html"> <button class="play-button">Play</button></a>
+                </div>
+            </div>
+
+            <!-- Add more game cards as needed -->
+            <div class="game-card" onclick="redirectToGame('Chess/index.html')" data-url="Chess/index.html">
+                <img src="images/chess.jpg" alt="Game 2" id="chess">
+                <div class="game-details">
+                    <p class="game-name">CHESS</p>
+                  <a href="Chess/index.html">  <button class="play-button">Play</button></a>
+                </div>
+            </div>
+            <div class="game-card" onclick="redirectToGame('RPS/index.html')" data-url="RPS/index.html" id="rps">
+                <img src="images/rock.jpg" alt="Game 2">
+                <div class="game-details">
+                    <p class="game-name">ROCK PAPER SCISSORS</p>
+                <a href="RPS/index.html">    <button class="play-button">Play</button></a>
+                </div>
+            </div>
+            <!-- ///////////////////////////////////// -->
+            <div class="game-card" onclick="redirectToGame('2048/index.html')" data-url="2048/index.html" id="2048">
+                <img src="images/2048.jpg" alt="Game 2">
+                <div class="game-details">
+                    <p class="game-name">2048</p>
+                  <a href="2048/index.html">  <button class="play-button">Play</button></a>
+                </div>
+            </div>
+            <div class="game-card" onclick="redirectToGame('race/mainindex.html')" data-url="race/mainindex.html" id="racepod">
+                <img src="images/race_car.jpg" alt="Game 2">
+                <div class="game-details">
+                    <p class="game-name">RacePod</p>
+                  <a href="race/mainindex.html">  <button class="play-button">Play</button></a>
+                </div>
+            </div>
+            <!-- /////////////////////////////////////////// -->
+            <div class="game-card" onclick="redirectToGame('Baloon_shoot/index.html')" data-url="Baloon_shoot/index.html" id="balloon-shoot">
+                <img src="images/gunshoot.jpg" alt="Game 2">
+                <div class="game-details">
+                    <p class="game-name">Shoot Baloon</p>
+                  <a href="Baloon_shoot/index.html">  <button class="play-button">Play</button></a>
+                </div>
+            </div>
+            <div class="game-card" onclick="redirectToGame('Bubble-Shooter/bubble-shooter.html')" data-url="Bubble-Shooter/bubble-shooter.html" id="bubble-shooter">
+                <img src="images/bubleShooter.jpg" alt="Game 2">
+                <div class="game-details">
+                    <p class="game-name">BUBBLESHOOTER</p>
+                  <a href="Bubble-Shooter/bubble-shooter.html">  <button class="play-button">Play</button></a>
+                </div>
+            </div>
+            <div class="game-card" onclick="redirectToGame('wspuzzle/index.html')" data-url="wspuzzle/index.html" id="water-sort">
+                <img src="images/Water_puzzle.jpg" alt="Game 2">
+                <div class="game-details">
+                    <p class="game-name">WATER_SORT</p>
+                  <a href="wspuzzle/index.html">  <button class="play-button">Play</button></a>
+                </div>
+            </div>
+            <div class="game-card" onclick="redirectToGame('MATH-GAME/index.html')" data-url="MATH-GAME/index.html" id="math-puzzle">
+                <img src="images/math.jpg" alt="Game 2">
+                <div class="game-details">
+                    <p class="game-name">MATH PUZZLE</p>
+                  <a href="MATH-GAME/index.html">  <button class="play-button">Play</button></a>
+                </div>
+            </div>
+
+
+
+
+            <!-- ///////////////////////////////////// -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Game Arcade</p>
+        </div>
+        <!-- <a href="snk/index1.html">go there</a> -->
+    </footer>
+
+    <!-- JavaScript for redirection -->
+    <script src="script.js"></script>
+</body>
+</html>
